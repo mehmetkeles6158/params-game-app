@@ -11,4 +11,7 @@ Rails.application.routes.draw do
   get "/sum_numbers/:number1/:number2" => "games#sum_metod"
 
   get"/guess_a_number/:num" => "games#guess_method"
+
+  post "/guess_number_game" => "games#guess_method"
+
 end

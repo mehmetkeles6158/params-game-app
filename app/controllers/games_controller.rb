@@ -71,6 +71,10 @@ class GamesController < ApplicationController
     
   end
 
+  # def guess_number
+  #   render json: {message: "hello"}
+  # end
+
 
 
 end
