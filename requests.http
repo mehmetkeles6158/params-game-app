@@ -1,0 +1,9 @@
+GET http://localhost:3000/first_game.json
+
+###
+
+GET http://localhost:3000/first_letter/?first_name=mehmet
+
+###
+
+GET http://localhost:3000/your_number?your_number=19
