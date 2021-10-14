@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   get "/first_letter" , controller: "games", action:"first_letter_name"
 
   get "/your_number" , controller:"games", action:"guess_number"
+
+  get "/sum_numbers/:number1/:number2" => "games#sum_metod"
+
+  get"/guess_a_number/:num" => "games#guess_method"
 end

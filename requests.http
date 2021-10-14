@@ -6,4 +6,12 @@ GET http://localhost:3000/first_letter/?first_name=mehmet
 
 ###
 
-GET http://localhost:3000/your_number?your_number=19
+GET http://localhost:3000/your_number?your_number=40
+
+###
+
+GET http://localhost:3000/sum_numbers/12/13
+
+###
+
+GET http://localhost:3000/guess_a_number/20
